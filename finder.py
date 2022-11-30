@@ -5,7 +5,7 @@ import re
 import os
 import sys
 
-# Get followers.json from Twitter for 
+# Get data.json from Twitter for 
 # Followers: https://oauth-playground.glitch.me/?id=usersIdFollowers&params=%28%27user.fields%21%27description%27%29_
 # Followings: https://oauth-playground.glitch.me/?id=usersIdFollowing&params=%28%27user.fields%21%27description%27%29_
 
