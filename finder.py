@@ -9,7 +9,7 @@ import sys
 # Followers: https://oauth-playground.glitch.me/?id=usersIdFollowers&params=%28%27user.fields%21%27description%27%29_
 # Followings: https://oauth-playground.glitch.me/?id=usersIdFollowing&params=%28%27user.fields%21%27description%27%29_
 
-with open(os.path.join(sys.path[0], "followings.json"), "r") as fileData:
+with open(os.path.join(sys.path[0], "data.json"), "r") as fileData:
     jsonData = json.load(fileData)
 
     mastodonUrlRegex = re.compile(r'@\w*@\w*\.\w*')
